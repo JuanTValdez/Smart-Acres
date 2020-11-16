@@ -3,4 +3,35 @@
 *::after {
   box-sizing: border-box;
   margin: 0;
+  background-color: #fcfff5;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  outline: 2px solid red;
+}
+.brand-logo {
+  outline: 2px solid hotpink;
+}
+
+.links-container {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  padding: 20px;
+  outline: 2px solid lawngreen;
+}
+
+.links-container h5 {
+  font-size: 1.1rem;
+  margin: auto;
+  outline: 2px solid purple;
+}
+
+div .contact-container {
+  outline: 5px solid coral;
+  padding: 10px;
 }
