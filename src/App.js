@@ -29,9 +29,8 @@ function App() {
         <img src={lettucePlate} alt="Lettuce"></img>
       </div>
 
-      {/*  */}
       <div className="think-container">
-        <div className="left-think-box">
+        <div className="left-think-box think-flex-item">
           <h5>
             {" "}
             <span className="txt-underline">THI</span>NK OUTSIDE THE BOX, THINK
@@ -39,7 +38,7 @@ function App() {
           </h5>
           <h2>The Evolution of Agriculture</h2>
         </div>
-        <div className="right-think-box">
+        <div className="right-think-box think-flex-item">
           <p>
             Hello, lettuce lovers! You're here because just like us your
             passionate about high-quality local foods that are healthy,
@@ -50,6 +49,13 @@ function App() {
             experience while enjoying our crisp and super-fresh greens!.
           </p>
         </div>
+      </div>
+
+      <div className="grid-callout-1">
+        <div className="green-background"></div>
+        <div className="white-background"></div>
+        <div className="white-background"></div>
+        <div className="green-background"></div>
       </div>
     </div>
   );

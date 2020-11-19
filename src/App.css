@@ -12,7 +12,7 @@
   --font-color-gunmetal: #4d6052;
   --font-color-charcoal: #242924;
   --font-color-darkpastelgreen: #57b35e;
-  --padding-left-10: 5rem;
+  --margin-left-10: 5rem;
 }
 
 nav {
@@ -73,7 +73,7 @@ div .contact-container {
 
 .headline-txt {
   color: var(--font-color-ferngreen);
-  padding-left: var(--padding-left-10);
+  padding-left: var(--margin-left-10);
   font-size: 4.5em;
   width: 50%;
 }
@@ -82,13 +82,13 @@ div .contact-container {
   font-size: var(--font-size-32px);
   color: var(--font-color-gunmetal);
   margin-top: 3rem;
-  padding-left: var(--padding-left-10);
+  padding-left: var(--margin-left-10);
   width: 40%;
 }
 
 .tell-me-more {
   border: none;
-  padding-left: 2rem 0 0 var(--padding-left-10);
+  padding-left: 2rem 0 0 var(--margin-left-10);
   font-size: 1.3rem;
   font-weight: bold;
   color: white;
@@ -99,21 +99,30 @@ div .contact-container {
 /*  */
 .think-container {
   display: flex;
+  justify-content: space-between;
+
   margin-top: 18rem;
+  min-height: 100vh;
 }
 
 .txt-underline {
+  padding-bottom: 1.1rem;
   border-bottom: 2px solid var(--font-color-charcoal);
 }
 
+.think-flex-item {
+  display: flex;
+  flex-direction: column;
+}
+
 .left-think-box {
-  outline: 3px solid red;
-  padding-left: var(--padding-left-10);
-  padding-bottom: 36rem;
+  align-content: flex-start;
+  margin-left: var(--margin-left-10);
 }
 
 .right-think-box {
-  outline: 3px solid green;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .left-think-box h2 {
@@ -125,18 +134,33 @@ div .contact-container {
   font-family: var(--font-family-worksans);
   font-weight: bold;
   color: var(--font-color-charcoal);
-  margin-bottom: 6rem;
+  margin-bottom: 6.1rem;
   font-size: 1.1rem;
-  align-content: left;
   line-height: 21px;
   letter-spacing: 0.2rem;
-  outline: 3px solid;
 }
 
 .right-think-box p {
   font-family: var(--font-family-worksans);
   font-size: 1.5rem;
-  width: 50%;
+  margin-bottom: 16rem;
+  width: 55%;
   color: var(--font-color-gunmetal);
   line-height: 2.3rem;
+}
+
+/*  */
+
+.grid-callout-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(2, 62rem);
+}
+
+.green-background {
+  background-color: var(--font-color-ferngreen);
+}
+
+.white-background {
+  background-color: white;
 }
