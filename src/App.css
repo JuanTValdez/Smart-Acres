@@ -12,6 +12,7 @@
   --font-color-gunmetal: #4d6052;
   --font-color-charcoal: #242924;
   --font-color-darkpastelgreen: #57b35e;
+  --font-color-beige: #eddcbd;
   --margin-left-10: 5rem;
 }
 
@@ -163,4 +164,17 @@ div .contact-container {
 
 .white-background {
   background-color: white;
+}
+
+.green-box-txt {
+  color: var(--font-color-beige);
+  font-size: 4.6rem;
+  line-height: 1.22;
+  letter-spacing: -1.85;
+  width: 60%;
+  background-color: white;
+}
+
+.green-box-2 {
+  padding-top: 10rem;
 }

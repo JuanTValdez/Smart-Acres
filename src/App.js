@@ -52,10 +52,18 @@ function App() {
       </div>
 
       <div className="grid-callout-1">
-        <div className="green-background"></div>
+        <div className="green-background green-box-1">
+          <div className="green-box-txt green-background">
+            Empowering the world through accessible cuisine ...
+          </div>
+        </div>
         <div className="white-background"></div>
         <div className="white-background"></div>
-        <div className="green-background"></div>
+        <div className="green-background green-box-2">
+          <div className="green-box-txt green-background">
+            ... driven by healthy lifestyle choices.
+          </div>
+        </div>
       </div>
     </div>
   );
